@@ -1,2 +1,3 @@
-# lslaunch
+# lslauncher
+
 Launcher for LameStation apps.

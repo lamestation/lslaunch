@@ -1,0 +1,11 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/icons/launcher">
+    <file>ide.png</file>
+    <file>img.png</file>
+    <file>map.png</file>
+    <file>wav.png</file>
+    <file>sng.png</file>
+    <file>logo.png</file>
+    <file>seal.png</file>
+</qresource>
+</RCC>
