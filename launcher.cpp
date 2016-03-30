@@ -26,7 +26,7 @@ void Launcher::launch(QString filename)
 }
 
 void Launcher::ide() { launch("propelleride"); }
-void Launcher::img() { launch("lspaint"); }
-void Launcher::map() { launch("tiled"); }
-void Launcher::wav() { launch("wav2dat"); }
-void Launcher::sng() { launch("sng2dat"); }
+void Launcher::img() { launch("lsimage"); }
+void Launcher::map() { launch("lsmap"); }
+void Launcher::wav() { launch("lswave"); }
+void Launcher::sng() { launch("lsmusic"); }

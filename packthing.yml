@@ -1,0 +1,28 @@
+name: LameStudio
+package: lslauncher
+org: LameStation LLC
+url: http://www.lamestation.com
+maintainer: LameStation
+email: contact@lamestation.com
+copyright: 2013-2015
+license: GPLv3
+tagline: LameStudio Launcher
+description: Portal to the exciting world of LameStation.
+master: lslauncher
+
+target: 
+  deb: 
+    depends:
+    categories: "Development;IDE"
+    section: "Applications/Editors"
+  mac: 
+    category: "public.app-category.developer-tools"
+
+repos: 
+    lslauncher:
+        url: https://github.com/lamestation/lslauncher.git
+        builder: qmake
+        files:
+            lslauncher:
+                name: LameStudio
+                icon: icons/seal.png
